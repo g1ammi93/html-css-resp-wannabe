@@ -1,13 +1,6 @@
-@media screen and (max-width: 1160px) {
-    .container {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
+.container {
+    width: 100%;
+    max-width: 1440px;
 }
 
 @media screen and (max-width: 576px) {
@@ -22,5 +15,17 @@
     .row {
         display: flex;
         flex-direction: column;
+        gap: 15px;
+    }
+
+    .why-us {
+        background-color: #222;
+        padding: 48px 0;
+    }
+
+    .steps,
+    .why.us,
+    .lessons {
+        margin-bottom: 0;
     }
 }
